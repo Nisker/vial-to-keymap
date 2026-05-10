@@ -643,7 +643,7 @@ def decode_keycode(
 # Matches standalone layer operations produced by decode_keycode.
 _STANDALONE_LAYER_OP_RE = re.compile(r"^(MO|TG|TO|DF|OSL|TT|PDF)\((\d+)\)$")
 
-# Only MO is a momentary hold — the others are toggles/one-shots that don't
+# Only MO is a momentary hold - the others are toggles/one-shots that don't
 # benefit from the "held" visual style.
 _HELD_LAYER_OPS = frozenset({"MO"})
 

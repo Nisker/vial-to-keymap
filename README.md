@@ -1,6 +1,6 @@
 # vial-to-keymap
 
-Connect to a keyboard running [Vial](https://get.vial.today/) firmware over USB and generate a complete [keymap-drawer](https://github.com/caksoylar/keymap-drawer) configuration — ready to render into an SVG image.
+Connect to a keyboard running [Vial](https://get.vial.today/) firmware over USB and generate a complete [keymap-drawer](https://github.com/caksoylar/keymap-drawer) configuration, ready to render into an SVG image.
 
 ## Requirements
 
@@ -9,6 +9,12 @@ Connect to a keyboard running [Vial](https://get.vial.today/) firmware over USB 
 - On Linux: udev rules granting access to the HID device.
 
 ## Installation
+
+From github:
+
+```bash
+pipx install git@github.com:Nisker/vial-to-keymap.git
+```
 
 install from source:
 
