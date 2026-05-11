@@ -13,7 +13,7 @@ Connect to a keyboard running [Vial](https://get.vial.today/) firmware over USB 
 From github:
 
 ```bash
-pipx install git@github.com:Nisker/vial-to-keymap.git
+pipx install git+https://github.com/Nisker/vial-to-keymap.git
 ```
 
 install from source:
